@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "lint": "eslint --ext .ts,.tsx",
+    "lint:staged": "lint-staged",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -34,7 +34,7 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
-      "npm run lint",
+      "npm run lint:staged",
       "prettier --write"
     ]
   },

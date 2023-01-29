@@ -1,4 +1,3 @@
-const a = 5;
+import { a } from "./test2";
 console.log(a);
-goi;
-a;
+export default { ab: 23 };

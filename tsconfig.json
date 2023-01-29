@@ -22,7 +22,7 @@
   },
   "include": [
     "src",
-    "*.js",
+    "**/*.js",
     "**/*.ts",
     "**/*.tsx",
     "vite-env.d.ts"
