@@ -9,6 +9,7 @@
         "plugin:import/recommended",
         "plugin:jsx-a11y/recommended",
         "plugin:@typescript-eslint/recommended",
+        "plugin:jsdoc/recommended",
         "eslint-config-prettier"
     ],
     "settings": {
@@ -37,7 +38,8 @@
     "plugins": [
         "react",
         "@typescript-eslint",
-        "import"
+        "import",
+        "jsdoc"
     ],
     "rules": {
         "react/jsx-uses-react": "off",
