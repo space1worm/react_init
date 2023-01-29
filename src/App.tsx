@@ -2,8 +2,6 @@ import { ReactElement, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
-console.log('hi');
-
 /**
  * @returns {ReactElement} entry point of app.
  */
