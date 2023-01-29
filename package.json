@@ -34,13 +34,7 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
-      "npm run lint:staged",
-      "prettier --write"
+      "npm run lint:staged"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged --debug"
-    }
   }
 }
