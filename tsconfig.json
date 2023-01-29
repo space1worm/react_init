@@ -7,7 +7,7 @@
       "DOM.Iterable",
       "ESNext"
     ],
-    "allowJs": false,
+    "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
@@ -22,11 +22,13 @@
   },
   "include": [
     "src",
+    "*.js",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "vite-env.d.ts"
   ],
   "exclude": [
-    "node_moduules"
+    "node_modules"
   ],
   "references": [
     {

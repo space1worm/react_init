@@ -31,6 +31,7 @@
     "overrides": [],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
+        "tsconfigRootDir": "./",
         "project": "./tsconfig.json"
     },
     "plugins": [
